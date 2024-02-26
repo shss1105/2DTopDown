@@ -8,8 +8,10 @@ public class PlayerInputController : TopDownCharacterController
 {
     private Camera _camera;
 
-    private void Awake()
+    protected override void Awake()
     {
+        // 부모 것 먼저 실행
+        base.Awake();
         _camera = Camera.main;
     }
 
