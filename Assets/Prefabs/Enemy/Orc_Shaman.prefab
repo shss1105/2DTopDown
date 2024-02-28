@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3810589382173162468}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: WeaponPivot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44,7 +44,7 @@ GameObject:
   - component: {fileID: 2087971642653369881}
   - component: {fileID: 2971639332389826340}
   - component: {fileID: 6341614636396495706}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: MainSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -106,7 +106,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 4
   m_Sprite: {fileID: 21300000, guid: d16e067617de25641be8f7161dbf9609, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -149,7 +149,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6530030467778843142}
   - component: {fileID: 1958248653831580532}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: WeaponSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -240,7 +240,9 @@ GameObject:
   - component: {fileID: 8384884426814381470}
   - component: {fileID: 5601903624138037633}
   - component: {fileID: 3377786845097082151}
-  m_Layer: 0
+  - component: {fileID: -426102471001879993}
+  - component: {fileID: -7140162308618298174}
+  m_Layer: 6
   m_Name: Orc_Shaman
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -420,6 +422,31 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a399ddd7324c674697d8bee470cf740, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &-426102471001879993
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6165630365676261312}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba891402e443c3d46a1a959e6c4b9b3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  healthChangeDelay: 0.5
+--- !u!114 &-7140162308618298174
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6165630365676261312}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f3faf3669059604bae734e92122ee9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6900402412321568296
 GameObject:
   m_ObjectHideFlags: 0
@@ -429,7 +456,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8134217639454281177}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BulletSpawnPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
