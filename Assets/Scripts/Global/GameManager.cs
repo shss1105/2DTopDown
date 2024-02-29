@@ -77,6 +77,7 @@ public class GameManager : MonoBehaviour
                 {
                     waveSpawnPosCount = waveSpawnPosCount + 1 > spawnPostions.Count ? waveSpawnPosCount : waveSpawnPosCount + 1;
                     waveSpawnCount = 0;
+                    Debug.Log("¿€µø¡ﬂ");
                 }
 
                 if (currentWaveIndex % 5 == 0)
@@ -84,7 +85,7 @@ public class GameManager : MonoBehaviour
                     CreateReward();
                 }
 
-                if (currentWaveIndex % 3 == 0)
+                if (currentWaveIndex % 3 == 0 || currentWaveIndex % 10 == 0)
                 {
                     waveSpawnCount += 1;
                 }
