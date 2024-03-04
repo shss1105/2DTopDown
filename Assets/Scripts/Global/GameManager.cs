@@ -151,7 +151,7 @@ public class GameManager : MonoBehaviour
 
     public void ExitGame()
     {
-        Application.Quit();
+        SceneManager.LoadScene("IntroScene");
     }
 
     void CreateReward()
